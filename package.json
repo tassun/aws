@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --project ./",
+    "s3": "node dist/test.s3.js",
+    "list": "node dist/test.s3.list.js",
+    "upload": "node dist/test.s3.upload.js",
+    "download": "node dist/test.s3.download.js",
+    "delete": "node dist/test.s3.delete.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
