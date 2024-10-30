@@ -5,11 +5,13 @@ const client = new S3Client({
 });
 
 async function listBucket() {
+    console.log("list bucket ...");
     const params = {
     };
     const command = new ListBucketsCommand(params);    
     try {        
         const data = await client.send(command);
+        console.info("data:",data);
     } catch(ex) {
         console.error(ex);
     }
