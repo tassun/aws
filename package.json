@@ -10,6 +10,7 @@
     "upload": "node dist/test.s3.upload.js",
     "download": "node dist/test.s3.download.js",
     "delete": "node dist/test.s3.delete.js",
+    "util": "node dist/test.s3.util.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
